@@ -1,73 +1,348 @@
-.bg-footer {
-    background-color: #33383c;
-    padding: 50px 0 30px;
-}
-.footer-heading {
-    letter-spacing: 2px;
+body {
+  font-family: Arial, hevetica, sans-serif;
+  padding: 0;
+  margin: 0;
+  background-color: #f4f4f4;
 }
 
+
+
+/* Global */
+
+.container {
+  width: 88%;
+  margin: auto;
+  overflow: hidden;
+}
+
+section .container h1 {
+  margin-left: 600px;
+}
+
+header {
+  background: #1d2c16;
+  color: #ffffff;
+  padding-top: 30px;
+  min-height: 70px;
+  border-bottom: #e8491d 3px solid;
+}
+
+header nav a {
+  color: #ffffff;
+  text-decoration: none;
+  text-transform: uppercase;
+  font-size: 16px;
+}
+a {
+  text-decoration: none;
+  color: #ffffff;
+}
+
+header ul {
+  margin: 0;
+  padding: 0;
+}
+
+header li {
+  display: inline;
+  padding: 0 20px 0 20px;
+}
+
+header #branding h1 {
+  margin: 0px;
+  float: left;
+}
+
+header nav {
+  float: right;
+  margin-top: 10px;
+}
+
+header .highlight,
+header .current a {
+  color: #ef771d;
+  font-weight: bold;
+}
+
+header nav a:hover {
+  color: #e8491d;
+  font-weight: bold;
+}
+
+.dark {
+  padding: 15px;
+  background: #35424a;
+  color: #ffffff;
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+/* Showcase */
+
+#showcase {
+  min-height: 700px;
+  background: url("https://www.digitro.com/wp-content/themes/digitro/lib/img/back/comprometimento_mundo_melhor.jpg")
+    no-repeat 0;
+  text-align: center;
+  color: #ffffff;
+  background-size: cover;
+}
+
+#showcase h1 {
+  margin-top: 100px;
+  font-size: 55px;
+  margin-bottom: 10px;
+}
+
+#newsletter {
+  padding: 15px;
+  color: white;
+  background: #35424a;
+}
+
+#newsletter h1 {
+  float: left;
+}
+
+#newsletter form {
+  float: right;
+  margin-top: 15px;
+}
+
+#newsletter input[type="email"] {
+  padding: 4px;
+  height: 25px;
+  widows: 250px;
+}
+
+.button_1 {
+  height: 38px;
+  background: orange;
+  border: 0;
+  padding-left: 20px;
+  padding-right: white;
+}
+
+#boxes {
+  margin-top: 28px;
+}
+
+#boxes .box {
+  float: left;
+  width: 30%;
+  padding: 10px;
+}
+
+#boxes .box img {
+  width: 90px;
+}
+
+aside#sidebar {
+  float: right;
+  width: 30%;
+  margin-top: 10px;
+}
+
+/*Main-col*/
+
+article#main-col {
+  float: left;
+  width: 65%;
+}
+
+/*Sustentabilidade*/
+
+ul#sustentabilidade li {
+  list-style: none;
+  padding: 20px;
+  border: #cccccc;
+  margin-bottom: 5px solid 1px;
+  background: #e6e6e6;
+}
+
+/* Boxes com Efeito */
+
+.bigbox {
+  width: 500px;
+  height: 700px;
+  position: absolute;
+}
+
+div .box {
+  position: relative;
+  width: calc(450px - 30px);
+  height: calc(180px - 30px);
+  margin: 10px;
+  float: left;
+  box-sizing: border-box;
+  border-radius: 10px;
+  background-color: #ed9751;
+}
+
+div .box .icon {
+  position: absolute;
+  top: 0%;
+  left: 0%;
+  width: 100%;
+  height: 100%;
+  transition: 0.5s;
+  background: #ef771d;
+  border-radius: 10px;
+  z-index: 1;
+}
+
+div .box:hover .icon {
+  top: 35px;
+  left: calc(50% - 180px);
+  width: 80px;
+  height: 80px;
+  border-radius: 50%;
+}
+
+.bigbox .box .icon .fa {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  font-size: 80px;
+  transition: 0.5s;
+  color: #fff;
+}
+
+.bigbox .box .icon:hover .fa {
+  font-size: 40px;
+}
+
+/*.box .content
+{
+    position: absolute;
+    z-index: 1;
+    top: -5px;
+    left: 135px;
+    height: calc(100% - 100px);
+    width: 300px;
+    text-align: center;
+    padding: 10px;
+    box-sizing: border-box;
+    transition: 0.5s;
+    color: rgba(255, 255, 255, 1);    
+}*/
+
+.box .content h3 p {
+  position: absolute;
+  color: #fff;
+}
+
+.box:hover .content {
+  color: rgba(255, 255, 255, 1);
+}
+
+@media (max-width: 768px) {
+  header #branding,
+  header nav,
+  header nav li #newsletter h1,
+  #newsletter form,
+  #boxes .box,
+  article#main-col,
+  aside#sidebar {
+    float: none;
+    text-align: center;
+    width: 100%;
+  }
+
+  header {
+    padding-bottom: 20px;
+  }
+
+  #showcase h1 {
+    margin-top: 40px;
+  }
+
+  #newsletter button {
+    display: block;
+    width: 100%;
+  }
+  #newsletter form input[type="email"] {
+    width: 100%;
+    margin-bottom: 5px;
+  }
+}
+
+.bg-footer {
+  background-color: #33383c;
+  padding: 50px 0 30px;
+}
+
+
 .footer-link a {
-    color: #acacac;
-    line-height: 40px;
-    font-size: 14px;
-    transition: all 0.5s;
+  color: #acacac;
+  line-height: 40px;
+  font-size: 14px;
+  transition: all 0.5s;
 }
 
 .footer-link a:hover {
-    color: #1bbc9b;
+  color: #1bbc9b;
 }
 
 .contact-info {
-    color: #acacac;
-    font-size: 14px;
+  color: #acacac;
+  font-size: 14px;
 }
 
 .footer-social-icon {
-    font-size: 15px;
-    height: 34px;
-    width: 34px;
-    line-height: 34px;
-    border-radius: 3px;
-    text-align: center;
-    display: inline-block;
+  font-size: 15px;
+  height: 34px;
+  width: 34px;
+  line-height: 34px;
+  border-radius: 3px;
+  text-align: center;
+  display: inline-block;
 }
 
 .facebook {
-    background-color: #4e71a8;
-    color: #ffffff;
+  background-color: #4e71a8;
+  color: #ffffff;
 }
 
 .twitter {
-    background-color: #55acee;
-    color: #ffffff;
+  background-color: #55acee;
+  color: #ffffff;
 }
 
 .google {
-    background-color: #d6492f;
-    color: #ffffff;
+  background-color: #d6492f;
+  color: #ffffff;
 }
 
 .apple {
-    background-color: #424041;
-    color: #ffffff;
+  background-color: #424041;
+  color: #ffffff;
 }
 
 .footer-alt {
-    color: #acacac;
+  color: #acacac;
 }
 
 .footer-heading {
-    position: relative;
-    padding-bottom: 12px;
+  position: relative;
+  padding-bottom: 12px;
 }
 
 .footer-heading:after {
-    content: '';
-    width: 25px;
-    border-bottom: 1px solid #FFF;
-    position: absolute;
-    left: 0;
-    bottom: 0;
-    display: block;
-    border-bottom: 1px solid #1bbc9b;
+  content: "";
+  width: 25px;
+  border-bottom: 1px solid #fff;
+  position: absolute;
+  left: 0;
+  bottom: 0;
+  display: block;
+  border-bottom: 1px solid #1bbc9b;
 }
+
+footer {
+  color: white;
+}
+
+
+
+
