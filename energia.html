@@ -1,15 +1,18 @@
 <!DOCTYPE html>
 
 <html>
-  
+
 <!-- Global site tag (gtag.js) - Google Analytics -->
-  
+
 <script async src="https://www.googletagmanager.com/gtag/js?id=UA-139872565-1"></script>
 <script>
   window.dataLayer = window.dataLayer || [];
-  function gtag(){dataLayer.push(arguments);}
+
+  function gtag() {
+    dataLayer.push(arguments);
+  }
   gtag('js', new Date());
-   gtag('config', 'UA-139872565-1');
+  gtag('config', 'UA-139872565-1');
 </script>
 
 <!-- Head-->
@@ -24,12 +27,14 @@
   <link rel="stylesheet" href="style.css">
   <title>SPS</title>
 </head>
-  
+
+<!-- Body-->
+
 <body>
   <header>
     <div class="container">
       <div id="branding">
-        <h1> <a href="index.html"> <span class="highlight">São Paulo  | Sustentável</a> </h1>
+        <h1> <a href="index.html"> <span class="highlight">São Paulo Sustentável</a> </h1>
         </span>
       </div>
       <nav>
@@ -43,92 +48,124 @@
     </div>
   </header>
 
-  <section id="main">
-    <h1 class="page-title">Construindo uma Cidade Sustentável</h1>
-    <ul id="sustentabilidade">
-      <div class="card-columns">
-        <div class="card">
-          <img src=" http://d24kgseos9bn1o.cloudfront.net/econtinental/imagens/pronto%209000%2080%20px%204.png " class="card-img-top" alt="Selo Procel">
-          <div class="card-body">
-            <h5 class="card-title">Sustentabilidade em Casa</h5>
-            <p class="card-text">A possibilidade de motivar e sensibilizar o núcleo familiar faz que seja mais simples levar boas práticas a outros ambientes e que mais pessoas queram participar.</p>
+  <head>
+    <meta charset="UTF-8">
+    <title>Example of Twitter Bootstrap 3 Carousel</title>
+    <link rel="stylesheet" href="https://netdna.bootstrapcdn.com/bootstrap/3.0.3/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://netdna.bootstrapcdn.com/bootstrap/3.0.3/css/bootstrap-theme.min.css">
+    <script type="text/javascript" src="https://code.jquery.com/jquery.min.js"></script>
+    <script src="https://netdna.bootstrapcdn.com/bootstrap/3.0.3/js/bootstrap.min.js"></script>
+  </head>
+
+  <body>
+    <div class="bs-example">
+      <div id="myCarousel" class="carousel slide" data-interval="6500" data-ride="carousel">
+        <!-- Carousel indicators -->
+        <ol class="carousel-indicators">
+          <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
+          <li data-target="#myCarousel" data-slide-to="1"></li>
+          <li data-target="#myCarousel" data-slide-to="2"></li>
+        </ol>
+        <!-- Carousel items -->
+        <div class="carousel-inner">
+          <div class="active item carousel-fade">
+
+            <div class="carousel-caption">
+              <img class="d-block w-100" src="http://d24kgseos9bn1o.cloudfront.net/econtinental/imagens/pronto%209000%2080%20px%204.png" alt="Third slide">
+              <h3>Sustentabilidade em Casa</h3>
+              <p>A possibilidade de motivar e sensibilizar o núcleo familiar faz que seja mais simples levar boas práticas a outros ambientes e que mais pessoas queram participar. .
+
+              </p>
+            </div>
+          </div>
+          <div class="item carousel-fade">
+            <div class="carousel-caption">
+              <img class="d-block w-100" src="https://abrilcasaclaudia.files.wordpress.com/2016/11/recepcao-02.jpeg" alt="Third slide">
+
+              <h3>Sustentabilidade na Minha Organização
+              </h3>
+
+              <p>A importância de ter boas práticas sustentáveis na empresa favorecem o bem-estar humano de forma significativa. Depois da revolução industrarial se observou uma preocupação global das consecuencias que traz a exploração do planeta.</p>
+
+            </div>
+          </div>
+          <div class="item carousel-fade">
+
+            <div class="carousel-caption">
+              <img class="d-block w-100" src="https://jornal.usp.br/wp-content/uploads/20170215_00_bosque-ib-icb.jpg" alt="Third slide">
+              <h3>Sustentabilidade na Minha Escola</h3>
+              <p>A escola é um ótimo lugar para fomentar o aprendizado social, criação e interpretação de informações. Na escola existe a possibilidade de transformar o espaço e analisar a Natureza tornando assim um lugar de hábitos sustentáveis. </p>
+            </div>
           </div>
         </div>
-        <div class="card p-3">
-          <blockquote class="blockquote mb-0 card-body">
-          <img src="https://abrilcasaclaudia.files.wordpress.com/2016/11/recepcao-02.jpeg" class="card-img-top" alt="USP Image">
-            <h5 class="card-title">Sustentabilidade na Minha Organização</h5>
-            <p>A importância de ter boas práticas sustentáveis na empresa favorecem o bem-estar humano de forma significativa. Depois da revolução industrarial se observou uma preocupação global das consecuencias que traz a exploração do planeta.
-   	Acidentes de grande impacto como usinas nucleares e contaminações tóxicas é o foco daquilo que é chamado ‘Sociedade de Risco’. Existe a necessidade de mitigar os riscos que nossa organização pode trazer as novas gerações e cada um de nós podemos contribuir e pôr em prática hábitos simples e efetivos.</p>
+        <!-- Carousel nav -->
+        <a class="carousel-control left" href="#myCarousel" data-slide="prev">
+            <span class="glyphicon glyphicon-chevron-left"></span>
+        </a>
+        <a class="carousel-control right" href="#myCarousel" data-slide="next">
+            <span class="glyphicon glyphicon-chevron-right"></span>
+        </a>
+      </div>
+    </div>
+  </body>
+
+</html>
+
+<!-- Footer -->
+
+<footer>
+  <footer class="section bg-footer">
+    <div class="container">
+      <div class="row">
+        <div class="col-lg-3">
+          <div class="">
+            <h6 class="footer-heading text-uppercase text-white">Informação</h6>
+            <ul class="list-unstyled footer-link mt-4">
+              <li><a href="sobre.html">Sobre SPS</a></li>
+              <li><a href="parte.html">Faça Parte</a></li>
+
+            </ul>
+          </div>
         </div>
-        <div class="card">
-          <img src="https://jornal.usp.br/wp-content/uploads/20170215_00_bosque-ib-icb.jpg " class="card-img-top" alt="USP Image">
-          <div class="card-body">
-            <h5 class="card-title">Sustentabilidade na Minha Escola</h5>
-            <p class="card-text">A escola é um ótimo lugar para fomentar o aprendizado social, criação e interpretação de informações. Na escola existe a possibilidade de transformar o espaço e analisar a Natureza tornando assim um lugar de hábitos sustentáveis.  
-</p>
-            <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
+
+        <div class="col-lg-3">
+          <div class="">
+            <h6 class="footer-heading text-uppercase text-white">Sustentabilidadae</h6>
+            <ul class="list-unstyled footer-link mt-4">
+              <li><a href="arquitetura.html">Arquitetura Verde  </a></li>
+              <li><a href="energia.html">Energia</a></li>
+              <li><a href="poluicao.html">Poluição </a></li>
+              <li><a href="reciclagem.html">Reciclagem</a></li>
+            </ul>
+          </div>
+        </div>
+
+        <div class="col-lg-2">
+          <div class="">
+            <h6 class="footer-heading text-uppercase text-white">Ajuda</h6>
+            <ul class="list-unstyled footer-link mt-4">
+              <li><a href="sobre.html">Quem Somos</a></li>
+            </ul>
+          </div>
+        </div>
+
+        <div class="col-lg-4">
+          <div class="">
+            <h6 class="footer-heading text-uppercase text-white">Contato</h6>
+
+            <p class="contact-info"></p>
+            <div class="mt-5">
+              <ul class="list-inline">
+                <li class="list-inline-item"><a href="https://github.com/AlfredoSh/alfredosh.github.io" target="_blank"><i class="fab fa-github"></i></i></a></li>
+                <li class="list-inline-item"><a href="https://github.com/AlfredoSh/alfredosh.github.io" target="_blank"><i class="fab facebook footer-social-icon fa-facebook-f"></i></i></a></li>
+                <li class="list-inline-item"><a href="https://github.com/AlfredoSh/alfredosh.github.io" target="_blank"><i class="fab twitter footer-social-icon fa-twitter"></i></i></a></li>
+                <li class="list-inline-item"><a href="https://github.com/AlfredoSh/alfredosh.github.io" target="_blank"><i class="fab google footer-social-icon fa-google"></i></i></a></li>
+
+              </ul>
+            </div>
           </div>
         </div>
       </div>
-
-  </section>
-
-  <!-- Footer -->
-
-  <footer>
-    <footer class="section bg-footer">
-      <div class="container">
-        <div class="row">
-          <div class="col-lg-3">
-            <div class="">
-              <h6 class="footer-heading text-uppercase text-white">Informação</h6>
-              <ul class="list-unstyled footer-link mt-4">
-                <li><a href="sobre.html">Sobre SPS</a></li>
-                <li><a href="participar.html">Faça Parte</a></li>
-
-              </ul>
-            </div>
-          </div>
-
-          <div class="col-lg-3">
-            <div class="">
-              <h6 class="footer-heading text-uppercase text-white">Sustentabilidadae</h6>
-              <ul class="list-unstyled footer-link mt-4">
-                <li><a href="arquitetura.html">Arquitetura Verde  </a></li>
-                <li><a href="energia.html">Energia</a></li>
-                <li><a href="poluicao.html">Poluição </a></li>
-                <li><a href="reciclagem.html">Reciclagem</a></li>
-              </ul>
-            </div>
-          </div>
-
-          <div class="col-lg-2">
-            <div class="">
-              <h6 class="footer-heading text-uppercase text-white">Ajuda</h6>
-              <ul class="list-unstyled footer-link mt-4">
-                <li><a href="sobre.html">Quem Somos</a></li>
-              </ul>
-            </div>
-          </div>
-
-          <div class="col-lg-4">
-            <div class="">
-              <h6 class="footer-heading text-uppercase text-white">Contácte-nos</h6>
-
-              <p class="contact-info"></p>
-              <div class="mt-5">
-                <ul class="list-inline">
-                  <li class="list-inline-item"><a href="https://github.com/AlfredoSh/alfredosh.github.io" target="_blank"><i class="fab fa-github"></i></i></a></li>
-                  <li class="list-inline-item"><a href="https://github.com/AlfredoSh/alfredosh.github.io" target="_blank"><i class="fab facebook footer-social-icon fa-facebook-f"></i></i></a></li>
-                  <li class="list-inline-item"><a href="https://github.com/AlfredoSh/alfredosh.github.io" target="_blank"><i class="fab twitter footer-social-icon fa-twitter"></i></i></a></li>
-                  <li class="list-inline-item"><a href="https://github.com/AlfredoSh/alfredosh.github.io" target="_blank"><i class="fab google footer-social-icon fa-google"></i></i></a></li>
-      
-                </ul>
-              </div>
-            </div>
-          </div>
-        </div>
-      </div>
-    </footer>
-    <html>
+    </div>
+  </footer>
+  <html>
