@@ -19,7 +19,6 @@
 section .container h1 {
   position: absolute;
   color: #ffffff;
-  padding-left: 350px;
 }
 
 header {
