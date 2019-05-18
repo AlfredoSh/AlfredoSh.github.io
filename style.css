@@ -19,8 +19,7 @@
 section .container h1 {
   position: absolute;
   color: #ffffff;
-  margin-left: 400px;
-  margin-top: 200px;
+  padding-left: 350px;
 }
 
 header {
