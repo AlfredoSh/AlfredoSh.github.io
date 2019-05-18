@@ -19,7 +19,6 @@
 section .container h1 {
   position: absolute;
   color: #ffffff;
-  padding-left: 350px;
 }
 
 header {
@@ -85,11 +84,7 @@ header a:hover {
 
 /* Boxes com Efeito */
 
-.bigbox {
-  width: 500px;
-  height: 700px;
-  position: absolute;
-}
+
 
 div .box {
   position: relative;
