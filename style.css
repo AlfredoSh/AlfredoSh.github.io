@@ -139,12 +139,12 @@ ddiv .box .content {
   position: absolute;
   z-index: 1;
   top: 0px;
-  left: 0px;
+  left: 50px;
   height: calc(100% - 100px);
   width: 420px;
   bottom: 5px;
   text-align: left;
-    font-size: 15px;
+  font-size: 15px;
   padding-left: 135px;
   padding-bottom: 150px;
   box-sizing: border-box;
