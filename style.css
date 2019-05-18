@@ -140,7 +140,7 @@ div .box .content {
   z-index: 1;
   top: -8px;
   left: 0px;
-  height: calc(100% - 100px);
+  height: calc(100% - 110px);
   width: 420px;
   bottom: 5px;
   text-align: left;
