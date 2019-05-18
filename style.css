@@ -139,7 +139,7 @@ div .box .content {
   position: absolute;
   z-index: 1;
   top: 0px;
-  left: 0px;
+  left: 150px;
   height: calc(100% - 100px);
   width: 420px;
   bottom: 5px;
