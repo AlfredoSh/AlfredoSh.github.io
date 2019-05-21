@@ -1,7 +1,6 @@
 /* Global */
 
 .container {
-  width: 88%;
   margin: auto;
   overflow: hidden;
   padding: 15px;
@@ -53,13 +52,13 @@ header li {
 }
 
 #branding {
-  margin: 0px;
+  margin: auto;
   float: left;
 }
 
 header nav {
   float: right;
-  margin-top: 10px;
+  margin-top: 15px;
 }
 
 header a:hover {
@@ -136,7 +135,6 @@ div .box:hover .icon {
 }
 
 div .box .content {
-  position: absolute;
   z-index: 1;
   top: 0px;
   left: 0px;
@@ -144,7 +142,7 @@ div .box .content {
   width: 420px;
   bottom: 5px;
   text-align: left;
-    font-size: 15px;
+  font-size: 15px;
   padding-left: 135px;
   padding-bottom: 150px;
   box-sizing: border-box;
@@ -188,9 +186,8 @@ div .box .content:hover {
 
 /* Footer */
 
-footer {
+footer{
   padding: 10px;
-  color: white;
   background-color: #1d2c16;
   text-align: center;
 }
@@ -216,29 +213,5 @@ footer {
   display: inline-block;
 }
 
-
-@media(max-width: 768px) {
-    header #branding,
-    header nav,
-    header nav li
-    #newsletter h1,
-    #newsletter form,
-    #boxes .box,
-    article#main-col,
-    bigbox, 
-    div .box,
-    div .box .icon,
-    bigbox .box .icon .fa,
-    div .box .content,
-    .item, 
-    .carousel,
-    .bs-example, 
-    .carousel.carousel-fade .item,
-    .carousel.carousel-fade .active.item,
-    .footer-link a,
-    .footer-social-icon,
-    aside#sidebar{
-        float: none;
-        text-align: center;
-        width: 100%;
-    } 
+   
+ 
