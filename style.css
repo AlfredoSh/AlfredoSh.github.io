@@ -37,9 +37,7 @@ header nav a {
   text-transform: uppercase;
   font-size: 16px;
 }
-a {
-  text-decoration: none;
-  color: #ffffff;
+
 }
  h4{text-align:center;
 }
@@ -216,30 +214,4 @@ footer{
   display: inline-block;
 }
 
-
-@media(max-width: 68px) {
-    header #branding,
-    header nav,
-    header nav li
-    #newsletter h1,
-    #newsletter form,
-    #boxes .box,
-    article#main-col,
-    bigbox, 
-    div .box,
-    div .box .icon,
-    bigbox .box .icon .fa,
-    div .box .content,
-    .item, 
-    .carousel,
-    .bs-example, 
-    .carousel.carousel-fade .item,
-    .carousel.carousel-fade .active.item,
-    .footer-link a,
-    .footer-social-icon,
-    aside#sidebar{
-        float: none;
-        text-align: center;
-        width: 100%;
-    } 
   
